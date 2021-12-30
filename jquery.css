@@ -1,0 +1,31 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-image: url(../images/iabzd-jVEsqmGTLt8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+h1{
+    color: gray;
+}
+.list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-group-item .badge {
+    margin-left: 20px;
+}
+@media screen and (max-width: 768px) {
+    .list-group-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .list-group-item .badge {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+}
